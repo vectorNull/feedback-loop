@@ -22,7 +22,9 @@
   },
   "homepage": "https://github.com/vectorNull/feedback-loop#readme",
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "passport": "^0.3.2",
+    "passport-google-oauth20": "^2.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
