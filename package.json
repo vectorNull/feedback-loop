@@ -1,0 +1,30 @@
+{
+  "name": "feedbackloop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "12.18.1",
+    "npm": "8.3.2"
+  },
+  "scripts": {
+    "start-dev": "nodemon server/index.js",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vectorNull/feedback-loop.git"
+  },
+  "author": "Jose Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vectorNull/feedback-loop/issues"
+  },
+  "homepage": "https://github.com/vectorNull/feedback-loop#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
